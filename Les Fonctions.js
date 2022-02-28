@@ -32,7 +32,13 @@ som = multiplication(5,10);
 
 console.log(som);
 
+// On peut également déclarer une fonction sans paramètres ni argument elles se reconaîtont mais il est préférable de lui en assigné une dès le départ
 
+function bien () {
+    console.log("Bion");
+}
+
+bien();
 
 // SANS VARIABLE
 
