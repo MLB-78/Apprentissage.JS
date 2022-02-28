@@ -17,7 +17,7 @@ console.log(7 !== 9)
 // LES COMBINAISONS DE COMPARAISONS 
 
 // L'opérateur && (ET) 
-
+// renvoie vrai si et uniquement si ses deux opérandes sont true
 // Cet opérateur est utilisé avec des valeurs non-booléennes, il renverra une valeur non-booléenne : ici 68
 // (C'est toujours la plus petite) 
 console.log(70 && 68);
