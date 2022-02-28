@@ -32,7 +32,7 @@ console.log(grand + moyen + 5);
 // On peut mettre à jour une variable let 
 let humeur = "heureux";
 humeur = "pas content";
-console.log(humeur);
+console.log(humeur); 
 // On ne peut pas mettre à jour une constante (const) ni lui réassigner une valeur plus tard
 // On la déclare alors en une seule fois
 const ville = "Paris";
