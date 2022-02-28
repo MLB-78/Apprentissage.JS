@@ -37,7 +37,16 @@ console.log(humeur);
 // On la déclare alors en une seule fois
 const ville = "Paris";
 
+// Une deuxième
 
+// les mises à jours
+
+const maximeAge = 18;
+console.log(maximeAge);
+
+let maximeTaille = "1m85";
+maximeTaille = "1m84";
+console.log(maximeTaille);
 
 
 // Scopes (pour ceux qui connaisent les conditions) let et const marchent de la même manière
@@ -57,6 +66,8 @@ if (poids < 130) {
 
 // En vrai ces deux variables sont différentes la 1er est globale et la 2ème est locale et toute les
 // deux afficheront des valeurs différentes.
+
+
 
 
 
