@@ -33,5 +33,12 @@ console.log(70 > 0 || 50 < 70);
 
 
 
-// L'opérateur ! (NON) c'est de la merde
+// L'opérateur d'incrémentaion 
+// Incrémentation (++)
+// L'opérateur d'incrémentation (++) permet d'incrémenter (c'est-à-dire d'ajouter un) à son opérande 
+// et de renvoyer une valeur qui est le résultat avant ou après la modification.
+
+let x = 3;
+const y = x++;
+
 
