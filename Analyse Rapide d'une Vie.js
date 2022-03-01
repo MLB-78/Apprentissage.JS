@@ -21,7 +21,7 @@ habitude = () => {
     console.log( "Maxime ton mental est de " + mental);
     console.log( "Maxime sur 24h dans une journée tu en perd  " + tempsPerdu);
     console.log( "Maxime ta vie sociale est estimé à  " + vieSociale);
-    console.log( "Maxime t'as vie amoureuse est à "+ amour + ". Elle n'a juste pas encore commencé");
+    console.log( "Maxime t'as vie amoureuse est à "+ amour);
     console.log("mais on est toujours en vie alors ");
 
     if (mental > vieSociale) {
