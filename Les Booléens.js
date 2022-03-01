@@ -34,6 +34,9 @@ console.log(70 > 0 || 50 < 70);
 
 
 // L'opérateur d'incrémentaion 
+// incrémenter : verbe transitif / En informatique = Augmenter (une variable) suivant un incrément donné.
+
+
 // Incrémentation (++)
 // L'opérateur d'incrémentation (++) permet d'incrémenter (c'est-à-dire d'ajouter un) à son opérande 
 // et de renvoyer une valeur qui est le résultat avant ou après la modification.
