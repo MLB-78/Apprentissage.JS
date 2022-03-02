@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Les closures de fonctions + Les fonctions anonymes </title>
+</head>
+<body>
+    <script>
+        console.log("Camerounais sauvage");
+        
+        // let a = 0;
+        
+        //   compteur = () => {
+            
+            //       return a++;
+            //   }
+            
+            
+            // en gros la variable a n'est pas protéger elle est accessible a tout le monde 
+            // sa peut donner lieu à des comportements indésirables si tu ne protège pas a
+            // C'est pour cela que les closures ont été inventé
+            
+            
+            // on va donc la retourner avec une closure cette fois-ci
+            
+            compteur2 = () => {
+                let b = 1;
+                return function() {
+                    return b++;
+                }
+                
+            }
+            // Dans la console, sa retourne la fonctions anonyme et le compteur. 
+            // Visiblement ce n'est pas ce qu'on veut
+            // Avec les closure on est obligé de les affecté à une variable
+
+            // Comme ceci :
+            let compteurDeBase = compteur2();
+
+            // On remplace la funcion qui était dans h1 par la variable : CompteurDeBase
+
+            // Et la on peut voir que tout s'incrémente très bien 
+            // ET le h1 500 ne vient pas affecter le contenu de a
+            
+        
+            
+            
+            </script>
+
+
+            <h1 onclick="console.log(compteurDeBase())">Ziak </h1>
+            <h1 onclick="a=500">500 </h1>
+
+
+
+            
+
+    </body>
+    </html>
