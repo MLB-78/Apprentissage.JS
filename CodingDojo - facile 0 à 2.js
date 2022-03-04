@@ -29,7 +29,7 @@ idf = (zero,un,deux) => {
         console.log(un);
     }
 
-    if (deux === 2) {
+    if (deux === 2) { 
         console.log(deux);
     }
     
