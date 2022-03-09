@@ -48,8 +48,8 @@ console.log("-----------------------------");
 // Autre manière avec une fonction cette foi-ci
 // Le mot-clé this sert à désigner précisement une propriété d'un objet 
 // Sans fonction fléchées sinon le mot clé "this" déconne
-// 
 
+// La manière de déclarer en  new object n'est pas recommandé 
     let record = new Object();
     record.mondiale = "USAIN BOLT 9.58 RECOOOORD DU MONNNDE";
     record.mondialeDit = function (){
