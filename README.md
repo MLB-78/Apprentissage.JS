@@ -1,6 +1,7 @@
 # Apprentissage JavaScript
 
 Début de l'apprentissage en autodidacte : Janvier 2022 
+
 Cela comporte toutes les bases depuis le début et tout les mini-projets qui m'ont fait avancer.
 
 
