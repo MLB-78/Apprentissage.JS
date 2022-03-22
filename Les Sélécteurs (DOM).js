@@ -1,6 +1,3 @@
-// Le DOM (Document Object Model) c'est pouvoir manipuler des balises html
-// Quand tu vas dans inspecter tu voit directement le DOM l'arborecence du navigateur(head,body...)
-
 // Les sélécteurs
 
 // Si tu fait un document.querySelector('body') dans la console, cela t'affichera les éléments de la console concernés par le body
