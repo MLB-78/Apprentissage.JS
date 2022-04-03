@@ -1,0 +1,57 @@
+Tout les sélecteurs Javascript 
+
+// Le "querySelector" (html css)
+
+Cette méthode permet d'aller chercher une balise et de lui injecter du code ou non 
+La valeur doit être mis entre guillemets
+
+ ex : 
+      document.querySelector('h2');
+      document.querySelector('h2')style.color = "brown";
+
+----------------------------------------------------------------------------------------------------------------------
+
+// Le "addEventListener"
+
+On l'utilise avec dans une fonction sans appel
+Ne peut être utilisé, que si, au préalable un querySelector a été effectuer
+Quand on désigne un évènement avec cette méthode elle se prépare à gérer un évènement sur la balise qu'on a pointé(click,mousemove...)
+addEventListener sa prend 2 paramètres
+1er paramètre c'est l'évènement en question "click"
+2ème paramètre c'est celui de la fonction (en vrai dans la fonction le nombre d'argument est illimité)
+
+
+ex : 
+    
+    question.addEventListener('click', () => {
+
+        console.log("ziak ");
+        question.classList.toggle('modif-1');  
+
+}); 
+
+Les évènement vu : le click, le mousemove,
+
+ 
+----------------------------------------------------------------------------------------------------------------------
+
+
+// Le "classList.('')"
+
+Pour ajouter un block CSS déja tout fait pour éviter le surplus dans le Javascript; comme ceci :
+
+ex : 
+    question.addEventListener('click', () => {
+        console.log("ziak ");
+        question.classList.add('modif-1');
+    });
+
+.add : c'est pour ajouter le style css,
+.toggle : c'est pour ajouter et enlever du style css,
+
+----------------------------------------------------------------------------------------------------------------------
+
+// Le document.getElementById('');
+C'est juste le querySelector des Id c'est tout zebi
+
+----------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,92 @@
+/* '*' séléctionne toute la page c'est comme un html */
+
+* {
+    
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: crimson;
+}
+
+h1{
+    text-align: center;
+
+}
+.Quizz{
+    text-align: center ;
+}
+
+
+button{
+    background-color: #ce9852;
+    font-size: 16px;
+    color: crimson;
+    border-radius: 25px;
+    border: rgb(235, 235, 235);
+    border-style: groove;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    
+    
+    
+   
+}
+
+button:hover{
+    transform: scale(1.03);
+}
+
+
+/* la réponse  */
+
+p{
+    visibility: hidden;
+    
+    
+}
+
+
+/* LES MODIFICATIONS INJECTER DANS JS */
+
+
+/* la mauvaise réponse */
+.show-1{
+
+    visibility: visible;
+    color: red;
+}
+/* la bonne réponse */
+.show-2{
+
+    visibility: visible;
+    color: green;
+   
+}
+
+/* changement de couleur de la div .Quizz*/
+
+.modif-1{
+    background-color: #ce9852;
+    border-radius: 125px;
+    border-style: ridge;
+    transition: 0.5s;
+ 
+}
+
+/* modification de la souris */
+
+.Souris{
+
+    color: rgba(194, 120, 228, 0.99);
+    background-color: whitesmoke;
+    opacity: 0,01;
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    border-radius: 100px;
+    position: absolute;
+
+}
+
