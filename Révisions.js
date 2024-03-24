@@ -220,14 +220,14 @@ console.log("-----------------------------------------");
 
 // Les objets 
 
-let parcoursup = {
-    voeux1 : "Paris", 
-    voeux2 : "Rester à proximité 92 ou 78", 
-    voeux3 : "Avoir le bac et une école"
+let project = {
+    voeux1 : "Partir", 
+    voeux2 : "Rester", 
+    voeux3 : "Réussir"
 };
 
-console.log(parcoursup);
-console.log(parcoursup.voeux2);
+console.log(project);
+console.log(project.voeux2);
 ;
 
 // mixi fonction
