@@ -9,7 +9,7 @@ function presenteToi(prenom,nom,age,taille,poids) {
 
 
 // Appel de la fonction : presenteToi - Ici ce qui se situe entre parenthèse c'est les arguments 
-presenteToi("Maxime","Njo Bojongo",18,"1m 85","83 kg");
+presenteToi("MLB","N.B",18,"1m 85","83 kg");
     
 
 
