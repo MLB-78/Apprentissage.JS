@@ -5,7 +5,7 @@
 
 // SANS PARAMETRES
 presenteToi = () => {
-    console.log("Moi c'est MLB");    
+    console.log(" MLB");    
 }
 
 presenteToi();
@@ -29,12 +29,4 @@ ileDeFrance(78,91);
 
 
 
-
-
-
-// Template literals($) : pour rentrer une expression - je vois aucune utilité à l'utiliser pour l'instant:( 
-
-
-
 // Les fonctions fléchés ont d'autre fonctionnalité comme la capacité d'être mis sur une ligne mais ici 
-// je ne vais pas la montrer ni l'apprendre car je considère que la manière de base est beaucoup mieux
