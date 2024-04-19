@@ -1,6 +1,6 @@
 # Apprentissage JavaScript
 
-Aapprentissage en autodidacte : 01/2022
+Apprentissage en autodidacte : 01/2022
 
 # Les bases de JavaScript
 
@@ -17,6 +17,7 @@ Aapprentissage en autodidacte : 01/2022
 - [x] Le DOM (Document Object Model)
 - [x] Manipulation du DOM avancée
 - [x] Projet pratique
-
+- [ ] Framework JS (Vue.js) 
+- [ ] Les API Web en JavaScript
 
 ![Texte alternatif](js.png)
