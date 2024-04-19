@@ -2,19 +2,21 @@
 
 Aapprentissage en autodidacte : 01/2022
 
-Les bases de JavaScript
-Le debugeur
-Constante
-Les scop (locale & globale)
-Les événements JavaScript
-Les tableaux et les objets
-Les fonctions
-Fonctions flechés
-La programmation orientée objet en JavaScript
-Les promesses et les callbacks
-Les modules en JavaScript
-Le DOM (Document Object Model)
-Manipulation du DOM avancée
-Projet pratique
+# Les bases de JavaScript
+
+- [x] Le debugger
+- [x] Constante
+- [x] Les scopes (locale & globale)
+- [x] Les événements JavaScript
+- [x] Les tableaux et les objets
+- [x] Les fonctions
+- [x] Fonctions fléchées
+- [x] La programmation orientée objet en JavaScript
+- [x] Les promesses et les callbacks
+- [x] Les modules en JavaScript
+- [x] Le DOM (Document Object Model)
+- [x] Manipulation du DOM avancée
+- [x] Projet pratique
+
 
 ![Texte alternatif](js.png)
