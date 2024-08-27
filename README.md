@@ -19,5 +19,8 @@ Apprentissage en autodidacte : 01/2022
 - [x] Projet pratique
 - [x] Framework JS (Vue.js) 
 - [x] Les API Web en JavaScript
+- [ ] Classes
+- [ ] POO JS
+- [ ] Big projet avec framework
 
 ![Texte alternatif](js.png)
