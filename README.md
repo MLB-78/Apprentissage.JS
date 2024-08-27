@@ -18,6 +18,6 @@ Apprentissage en autodidacte : 01/2022
 - [x] Manipulation du DOM avancée
 - [x] Projet pratique
 - [x] Framework JS (Vue.js) 
-- [ ] Les API Web en JavaScript
+- [x] Les API Web en JavaScript
 
 ![Texte alternatif](js.png)
